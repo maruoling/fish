@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>爱心鱼</title>
+<style>
+	body{
+		padding-top: 10px;
+	}	
+	#allcanvas{
+		width: 800px;
+		height: 600px;
+		margin: 0 auto;
+		position: relative;
+	}
+	#canvas1{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	#canvas2{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+	}
+</style>
+</head>
+
+<body>
+<div id="allcanvas">
+<!--减轻浏览器的渲染压力-->
+	<canvas id="canvas1" width="800" height="600"></canvas>
+	<canvas id="canvas2" width="800" height="600"></canvas>
+</div>
+<script src="main.js"></script>
+<script src="commonFunctions.js"></script>
+<script src="ane.js"></script>
+<script src="fruit.js"></script>
+<script src="mom.js"></script>
+<script src="collision.js"></script>
+<script src="baby.js"></script>
+<script src="data.js"></script>
+<script src="wave.js"></script>
+</body>
+</html>
